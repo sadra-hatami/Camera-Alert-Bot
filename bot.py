@@ -1,8 +1,3 @@
-"""
-سیستم نظارت تصویری با Telegram Bot و YOLO + DeepFace
-
-"""
-
 import os
 import sys
 import subprocess
@@ -75,7 +70,7 @@ def check_python_version():
 # تنظیمات اولیه
 # ============================================================
 
-BOT_TOKEN = "token bottttt"
+BOT_TOKEN = ""
 ADMIN_CHAT_ID = your id num
 
 PROJECT_DIR = Path(__file__).parent
